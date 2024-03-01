@@ -12,6 +12,7 @@
   "license": "ISC",
   "dependencies": {
     "@google/generative-ai": "^0.2.1",
+    "@supabase/supabase-js": "^2.39.7",
     "dotenv": "^16.4.5"
   }
 }
