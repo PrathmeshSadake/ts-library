@@ -5,14 +5,18 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "bot": "tsx pdfbot/index.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@google/generative-ai": "^0.2.1",
+    "@langchain/community": "^0.0.41",
     "@supabase/supabase-js": "^2.39.7",
-    "dotenv": "^16.4.5"
+    "dotenv": "^16.4.5",
+    "langchain": "^0.1.28",
+    "pdf-parse": "^1.1.1",
+    "tsx": "^4.7.1"
   }
 }
